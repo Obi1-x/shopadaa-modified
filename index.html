@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-    content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     <title>Scroll Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -26,12 +26,65 @@
           <li class="navbar__item">
             <a href="#products" class="navbar__links" id="products-page">Products</a>
           </li>
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="services-page">Services</a>
+          </li>
           <li class="navbar__btn">
             <a href="#sign-up" class="button" id="signup">Sign Up</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <div class="hero" id="Home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Choose Your <span>Outfit</span></h1>
+        <p class="hero__decription">Unlimited Styles</p>
+        <button class="main__btn"><a href="#">Explore</a></botton>
+      </div>
+    </div>
+
+    <!--about section-->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-tshirt"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We Help You Look Your Best</h2>
+          <p>Schedule a Call To Learn More About Our Products & Services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></botton>
+        </div>
+      </div>
+    </div>
+    <!-- products section -->
+    <div class="products" id="products">
+      <h1>Our Products & Services</h1>
+      <div class="products__wrapper">
+        <div class="products__card">
+          <h2>Custom Designs</h2>
+          <p>AI Powered Technology</p>
+          <div class="products__btn"><button>Get Started</botton></div>
+        </div>
+        <div class="products__card">
+          <h2>Take The Leap</h2>
+          <p>Showcase Your Unique Style</p>
+          <div class="products__btn"><button>Get Started</botton></div>
+        </div>
+        <div class="products__card">
+          <h2>Full Wardrobe Options</h2>
+          <p>100 Color Combinations</p>
+          <div class="products__btn"><button>Get Started</botton></div>
+        </div>
+        <div class="products__card">
+          <h2>Multiple Choices</h2>
+          <p>1000s of Outfits</p>
+          <div class="products__btn"><button>Get Started</botton></div>
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
