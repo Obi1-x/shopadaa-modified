@@ -1,5 +1,5 @@
 # Design-portfolio
-please see the PNG files attached for images of some of the UI/UX and product design projects I designed and created.
+please see the PNG & JPG files attached for images of some of the UI/UX and product design projects I designed and created.
 In addition,
 # Scroll-website
 I coded this responsive scroll website using HTML, CSS and JavaScript.
