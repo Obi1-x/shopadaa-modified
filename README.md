@@ -1,3 +1,5 @@
+please see the PNG files attached for images of some of the UI/UX and product design projects I designed and created.
+In addition,
 # Scroll-website
 I coded this responsive scroll website using HTML, CSS and JavaScript.
 I added hover effect to the Nav_links, Explore and Schedule Call buttons.
