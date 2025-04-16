@@ -1,90 +1,52 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ada shops</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">ADA's SHOP</a>
-        <div class="navbar__toogle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#products" class="navbar__links" id="products-page">Products</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="services-page">Services</a>
-          </li>
-          <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
-          </li>
-        </ul>
-      </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHOP ADA</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ADA's SHOP</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about.html">Blog</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <div class="hero" id="Home">
-      <div class="hero__container">
-        <h1 class="hero__heading">Choose Your <span>Outfit</span></h1>
-        <p class="hero__decription">Unlimited Styles</p>
-        <button class="main__btn"><a href="#">Explore</a></botton>
-      </div>
-    </div>
+  <section class="hero">
+    <h1>Choose Your <span class="gradient-text">Outfit</span></h1>
+    <p class="subtitle">Unlimited Styles</p>
+    <a href="#" class="explore-button">Explore</a>
+  </section>
 
-    <!--about section-->
-    <div class="main" id="about">
-      <div class="main__container">
-        <div class="main__img--container">
-          <div class="main__img--card"><i class="fas fa-tshirt"></i></div>
-        </div>
-        <div class="main__content">
-          <h1>What do we do?</h1>
-          <h2>We Help You Look Your Best</h2>
-          <p>Schedule a Call To Learn More About Our Products & Services</p>
-          <button class="main__btn"><a href="#">Schedule Call</a></botton>
-        </div>
-      </div>
+  <section class="featured">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">Product 1</div>
+      <div class="product-card">Product 2</div>
+      <div class="product-card">Product 3</div>
     </div>
-    <!-- products section -->
-    <div class="products" id="products">
-      <h1>Our Products & Services</h1>
-      <div class="products__wrapper">
-        <div class="products__card">
-          <h2>Custom Designs</h2>
-          <p>Several design templates</p>
-          <div class="products__btn"><button>Get Started</botton></div>
-        </div>
-        <div class="products__card">
-          <h2>Take The Leap</h2>
-          <p>Showcase Your Unique Style</p>
-          <div class="products__btn"><button>Get Started</botton></div>
-        </div>
-        <div class="products__card">
-          <h2>Full Wardrobe Options</h2>
-          <p>100 Color Combinations</p>
-          <div class="products__btn"><button>Get Started</botton></div>
-        </div>
-        <div class="products__card">
-          <h2>Multiple Choices</h2>
-          <p>1000s of Outfits</p>
-          <div class="products__btn"><button>Get Started</botton></div>
-        </div>
-      </div>
-    </div>
+  </section>
 
-    <script src="app.js"></script>
-  </body>
+  <section class="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="product-grid">
+      <div class="product-card">New 1</div>
+      <div class="product-card">New 2</div>
+      <div class="product-card">New 3</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 SHOP ADA. All rights reserved.</p>
+  </footer>
+</body>
 </html>
